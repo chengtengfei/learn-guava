@@ -1,5 +1,10 @@
 #### Guava使用代码示例
 
+仓库中的代码是作者的系列博文Google Guava最佳实践的示例代码，帮助读者完善了解并使用Guava库提供的功能。
+
+
+#### Guava 简介
+
 Guava是来自Google的Java库合集，包含了很多新的集合类型（比如multinmap和mulitset），不可变集合，图库和并发、I/O、哈希、缓存、原始类型等类型的工具集。Guava广泛的使用在Google的大部分Javagon项目中，也被其他的公司广泛采用。
 Guava有两种使用方式：
 
