@@ -1,6 +1,6 @@
 #### Guava使用代码示例
 
-仓库中的代码是作者的系列博文Google Guava最佳实践的示例代码，帮助读者完善了解并使用Guava库提供的功能。
+仓库中的代码是作者的[系列博文Google Guava最佳实践][2]的示例代码，帮助读者了解并使用Guava库提供的功能。代码中每个包下的`package-info.java`文件会介绍此包所涉及的功能。
 
 
 #### Guava 简介
@@ -43,3 +43,4 @@ Guava的Maven group ID 是 `com.google.guava`， artifact ID是`guava`。
 
 
   [1]: https://github.com/google/guava
+  [2]: https://www.cnblogs.com/weegee/category/1772615.html
