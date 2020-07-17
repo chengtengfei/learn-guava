@@ -36,7 +36,7 @@ public class UsingPreconditions {
         // Preconditions.checkNotNull(firstString, "Argument 'firstString' expected non-null", firstString, secondString);
         // Preconditions.checkArgument(firstString.length() > 5, "Argument 'firstString' expected length > 5", firstString, secondString);
         Preconditions.checkArgument(firstString != null && firstString.length() > 5, "Argument 'firstString' expected non-null and length > 5", firstString, secondString);
-        // Objects.requireNonNull(secondString, "Argument 'secondString' expected non-null");
+        // GuavaObjects.requireNonNull(secondString, "Argument 'secondString' expected non-null");
         Preconditions.checkNotNull(secondString, "Argument 'secondString' expected non-null");
         if (firstString.compareTo(secondString) >= 0) {
             return firstString;
