@@ -25,6 +25,7 @@ public class GuavaObjects {
 
         Person alice = new Person("alice", 18);
         System.out.println(alice.hashCode());
+        System.out.println(alice);
 
     }
 }
